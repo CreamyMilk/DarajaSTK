@@ -42,7 +42,7 @@
     });
     return response.json(); // parses JSON response into native JavaScript objects
 }
-    async function test(){
+    async function token(){
         const response = await fetch('/token')
         const data = await response.json()
         return data;
@@ -50,7 +50,7 @@
         
     };
     async function two(){
-        let auth = await test()
+        let auth = await token()
         let PhoneNumber = parseNumber(PhoneContainer.value)
         console.log(PhoneNumber)
         let access_token = auth["access_token"]
