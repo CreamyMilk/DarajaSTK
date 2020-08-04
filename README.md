@@ -1,5 +1,5 @@
 # DarajaSTK
-A simple implementation of "Lipa na Mpesa Online using STK Push offerd by the daraja api
+A simple implementation of "Lipa na Mpesa Online using STK Push offerd by the Daraja api
 
 ## SCREENSHOT
 ![Alt text](https://github.com/CreamyMilk/DarajaSTK/blob/master/Form%20For%20STK%20PUSH.png "Optional title")
