@@ -31,12 +31,11 @@ app.get('/token',(req,res)=>{
 
 app.post('/lipa',(req,res)=>{
 	let url = "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest";
-	let {access_token,PhoneNumber} = req.body;
+	let {access_token,PhoneNumber,Amount} = req.body;
 	let Timestamp= moment().format('YYYYMMDDHHmmss');
 	let ShortCode = process.env.SHORT_CODE;
 	let PassKey = process.env.PROCESS_PASSKEY;
 	let Password = new Buffer.from(ShortCode+PassKey+Timestamp).toString('base64')
-	let Amount ="10";//This is just a place hoder
 	let bearer = 'Bearer ' + access_token;
 	let AccountReference ="SiJothamPS";
 	let TransactionDesc="test"
