@@ -3,7 +3,7 @@ A simple implementation of "Lipa na Mpesa Online using STK Push offerd by the Da
 No callaback info is logged 
 
 ## SCREENSHOT
-![Alt text](https://github.com/CreamyMilk/DarajaSTK/blob/master/Form%20For%20STK%20PUSH.png "Optional title")
+![Form ScreenShot](https://github.com/CreamyMilk/DarajaSTK/blob/master/Form%20For%20STK%20PUSH.png "Optional title")
 
 
 # Mpesa Express
