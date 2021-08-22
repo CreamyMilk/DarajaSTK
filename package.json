@@ -4,7 +4,8 @@
   "description": "A simple implementation of \"Lipa na Mpesa Online using STK Push offerd by the Daraja api No callaback info is logged",
   "main": "Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js"
   },
   "repository": {
     "type": "git",
