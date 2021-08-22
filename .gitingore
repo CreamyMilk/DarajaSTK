@@ -9,7 +9,6 @@ lerna-debug.log*
 /node_modules
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
 # Runtime data
 pids
 *.pid
@@ -65,7 +64,7 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
-
+node_modules
 # Yarn Integrity file
 .yarn-integrity
 
